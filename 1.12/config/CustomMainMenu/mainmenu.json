@@ -1,0 +1,314 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:minecolonies.png",
+            "posX" : -150,
+            "posY" : 20,
+            "width" : 308,
+            "height" : 46,
+            "alignment" : "top_center"
+        },
+        
+        "Author":
+        {
+            "image" : "mainmenu:modpack.png",
+            "posX" : -88,
+            "posY" : -25,
+            "width" : 178,
+            "height" : 21,
+            "alignment" : "bottom_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture":"mainmenu:button.png",
+            "posX" : -100,
+            "posY" : 30,
+            "hoverTextColor" : 65535,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth":80,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+                
+        "wiki":
+        {
+            "text" : "Wiki",
+            "texture":"mainmenu:button.png",
+            "posX" : -15,
+            "posY" : 30,
+            "hoverTextColor" : 65535,
+            "width" : 30,
+            "height" : 20,
+            "imageWidth":80,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type":"openLink",
+                "link":"https://wiki.minecolonies.com/"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture":"mainmenu:button.png",
+            "posX" : 20,
+            "posY" : 30,
+            "hoverTextColor" : 65535,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth":80,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture":"mainmenu:button.png",
+            "posX" : -100,
+            "posY" : 54,
+            "hoverTextColor" : 65535,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth":80,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+                    
+        "Forum":
+        {
+            "text" : "Forums",
+            "texture":"mainmenu:button.png",
+            "posX" : 20,
+            "posY" : 54,
+            "hoverTextColor" : 65535,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth":80,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type":"openLink",
+                "link":"http://www.minecolonies.com/"
+            }
+        },
+        
+        "options":
+        {
+            "text" : "menu.options",
+            "texture":"mainmenu:button.png",
+            "posX" : -100,
+            "posY" : 78,
+            "hoverTextColor" : 65535,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth":80,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "texture":"mainmenu:button.png",
+            "posX" : 20,
+            "posY" : 78,
+            "hoverTextColor" : 65535,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth":80,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -10,
+            "posY" : 54,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:langbtn.png",
+            "imageWidth":208,
+            "imageHeight":208,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -10,
+            "posY" : 78,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:refreshbtn.png",
+            "imageWidth":208,
+            "imageHeight":208,
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+        
+        "Discord":
+        {
+            "text":"",
+            "tooltip":"Join us",
+            "hoverTextColor" : 65535,
+            "texture" : "mainmenu:discord.png",
+            "posX":-15,
+            "posY":105,
+            "width":30,
+            "height":30,
+            "imageWidth":176,
+            "imageHeight":199,
+            "action":
+            {
+                "type":"openLink",
+                "link":"https://discord.gg/zjA75K8"
+            }
+        },
+        
+        "Patreon":
+        {
+            "text":"",
+            "tooltip":"Support Us",
+            "texture" : "mainmenu:patreonbtn.png",
+            "posX":-70,
+            "posY":105,
+            "width":30,
+            "height":30,
+            "imageWidth":200,
+            "imageHeight":200,
+            "action":
+            {
+                "type":"openLink",
+                "link":"https://www.patreon.com/Minecolonies"
+            }
+        },
+                
+        "Github":
+        {
+            "text":"",
+            "tooltip":"GitHub Bug Report",
+            "texture" : "mainmenu:github.png",
+            "posX": 45,
+            "posY": 105,
+            "width":30,
+            "height":30,
+            "imageWidth":306,
+            "imageHeight":283,
+            "action":
+            {
+                "type":"openLink",
+                "link":"https://github.com/Minecolonies/minecolonies/issues"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text":"Copyright Mojang AB",
+            "posX":-90,
+            "posY":-13,
+            "hoverColor":-1,
+            "fontSize":0.8,
+            "alignment":"bottom_right"
+        },
+        
+        "forge":
+        {
+            "text":"Forge Ver. #forgeversion#",
+            "posX":3,
+            "posY":-21,
+            "hoverColor":-1,
+            "fontSize":0.8,
+            "alignment":"bottom_left"
+        },
+        
+        "modsloaded":
+        {
+            "text":"#modsloaded# Mods Loaded",
+            "posX":3,
+            "posY":-13,
+            "hoverColor":-1,
+            "fontSize":0.8,
+            "alignment":"bottom_left"
+        },
+        
+        "player":
+        {
+            "text":"Welcome #username#",
+            "posX":3,
+            "posY":-39,
+            "hoverColor":-1,
+            "fontSize":0.8,
+            "alignment":"bottom_left"
+        },
+                
+        "minecraft":
+        {
+            "text":"Minecraft #mcversion#",
+            "posX":3,
+            "posY":-30,
+            "hoverColor":-1,
+            "fontSize":0.8,
+            "alignment":"bottom_left"
+        }
+    },
+
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 100,
+            "posY" : 40,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:mainmenu:texts/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "mainmenu:background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 7,
+            "blur" : false,
+            "gradient" : true
+        }
+    }
+}

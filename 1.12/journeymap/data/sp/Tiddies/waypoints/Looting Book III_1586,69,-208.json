@@ -1,0 +1,18 @@
+{
+  "id": "Looting Book III_1586,69,-208",
+  "name": "Looting Book III",
+  "icon": "waypoint-normal.png",
+  "x": 1586,
+  "y": 69,
+  "z": -208,
+  "r": 231,
+  "g": 29,
+  "b": 176,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "Jungle_-2300,78,-500",
+  "name": "Jungle",
+  "icon": "waypoint-normal.png",
+  "x": -2300,
+  "y": 78,
+  "z": -500,
+  "r": 46,
+  "g": 100,
+  "b": 80,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

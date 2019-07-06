@@ -1,0 +1,18 @@
+{
+  "id": "PowerI_-830,66,-512",
+  "name": "PowerI",
+  "icon": "waypoint-normal.png",
+  "x": -830,
+  "y": 66,
+  "z": -512,
+  "r": 229,
+  "g": 47,
+  "b": 141,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

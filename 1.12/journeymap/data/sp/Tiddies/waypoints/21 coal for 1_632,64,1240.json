@@ -1,0 +1,18 @@
+{
+  "id": "21 coal for 1_632,64,1240",
+  "name": "21 coal for 1",
+  "icon": "waypoint-normal.png",
+  "x": 632,
+  "y": 64,
+  "z": 1240,
+  "r": 103,
+  "g": 54,
+  "b": 29,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
